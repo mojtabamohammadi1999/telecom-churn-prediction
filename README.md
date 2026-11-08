@@ -78,7 +78,7 @@ churn-project/
 └── README.md
 ```
 
-## How to ru
+## How to run
 Or try the live demo above without installing anything.
 
 ```bash
