@@ -1,0 +1,28 @@
+{
+  "threshold": 0.2,
+  "cost_missed_churn": 200,
+  "cost_false_alarm": 50,
+  "feature_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "test_roc_auc": 0.828,
+  "test_pr_auc": 0.628
+}
