@@ -1,3 +1,9 @@
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://telecom-churn-prediction-moji.streamlit.app/)
+
+**Live demo:** https://telecom-churn-prediction-moji.streamlit.app/
+
+*The free hosting puts the app to sleep when idle. If you see a "wake up" button, click it and wait a few seconds.*
+
 # Telecom Customer Churn Prediction
 
 End-to-end churn prediction project: from exploratory analysis and model comparison to a
@@ -62,7 +68,7 @@ The app takes a customer's profile, returns the churn probability and a high/low
 ```
 churn-project/
 ├── app.py                  # Streamlit app
-├── notebooks/
+├── notebook/
 │   └── churn_modeling.ipynb
 ├── models/
 │   ├── churn_pipeline.joblib
@@ -72,15 +78,16 @@ churn-project/
 └── README.md
 ```
 
-## How to run
+## How to ru
+Or try the live demo above without installing anything.
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-To reproduce training, open `notebooks/churn_modeling.ipynb` (launch Jupyter from the
-`notebooks/` folder because paths are relative) and run all cells.
+To reproduce training, open `notebook/churn_modeling.ipynb` (launch Jupyter from the
+`notebook/` folder because paths are relative) and run all cells.
 
 ## Limitations
 
